@@ -1,0 +1,75 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #872222;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+#search {
+    width: 80%;
+    padding: 0.5em;
+    margin-top: 1em;
+    border-radius: 4px;
+    border: none;
+    font-size: 1em;
+}
+
+#countries-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+}
+
+.country-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0.5em;
+    padding: 1em;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.country-card:hover {
+    transform: scale(1.05);
+}
+
+.country-card h2 {
+    margin-top: 0;
+}
+
+.country-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+strong{
+
+    color: #872222;
+}
+
+@media (max-width: 600px) {
+    #search {
+        width: 100%;
+    }
+
+    .country-card {
+        width: 100%;
+    }
+}
