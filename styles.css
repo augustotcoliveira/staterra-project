@@ -12,6 +12,44 @@ header {
     text-align: center;
 }
 
+
+.search-container {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    border: none;
+    background-color: #477d18;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: #13e808;
+}
+
 #search {
     width: 80%;
     padding: 0.5em;
